@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#header-img {
+    height: 70px;
+    padding: 10px;
+}
+
+@media (max-width: 560px) {
+.input {
+    width: 100%;
+}
+}
